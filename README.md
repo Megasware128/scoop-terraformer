@@ -8,7 +8,7 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add <bucketname> https://github.com/Megasware128/scoop-terraformer`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add terraformer https://github.com/Megasware128/scoop-terraformer`. To install, do `scoop install <manifest>`.
 
 ----
 
