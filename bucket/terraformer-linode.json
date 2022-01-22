@@ -1,0 +1,21 @@
+{
+    "version": "0.8.18",
+    "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-linode-windows-amd64.exe#/terraformer-linode.exe",
+            "hash": "d04e8bd87eea8d4761ce82f5ccc973bf034841825db7b4e9dac12b1d2f5adee1"
+        }
+    },
+    "bin": "terraformer-linode.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-linode-windows-amd64.exe#/terraformer-linode.exe"
+            }
+        }
+    }
+}

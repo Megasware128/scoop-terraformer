@@ -1,0 +1,21 @@
+{
+    "version": "0.8.18",
+    "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-ns1-windows-amd64.exe#/terraformer-ns1.exe",
+            "hash": "5a85d68ad0ecbe1283716209f3d3a2ba72eb0eea23d32fdd04357969ffa51c17"
+        }
+    },
+    "bin": "terraformer-ns1.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-ns1-windows-amd64.exe#/terraformer-ns1.exe"
+            }
+        }
+    }
+}

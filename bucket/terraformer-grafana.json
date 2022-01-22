@@ -1,0 +1,21 @@
+{
+    "version": "0.8.18",
+    "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-grafana-windows-amd64.exe#/terraformer-grafana.exe",
+            "hash": "93ef91baad06eaa9ddd6d4c8e3af288a219a4cd0f314e11ff509f8961c0d823c"
+        }
+    },
+    "bin": "terraformer-grafana.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-grafana-windows-amd64.exe#/terraformer-grafana.exe"
+            }
+        }
+    }
+}

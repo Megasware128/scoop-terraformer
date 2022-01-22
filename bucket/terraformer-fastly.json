@@ -1,0 +1,21 @@
+{
+    "version": "0.8.18",
+    "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-fastly-windows-amd64.exe#/terraformer-fastly.exe",
+            "hash": "ce57023a830cde8fb0550a046591e3fedf6a26eb89029f1155d421de7da0ef72"
+        }
+    },
+    "bin": "terraformer-fastly.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-fastly-windows-amd64.exe#/terraformer-fastly.exe"
+            }
+        }
+    }
+}

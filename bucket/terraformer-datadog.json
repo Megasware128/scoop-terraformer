@@ -1,0 +1,21 @@
+{
+    "version": "0.8.18",
+    "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-datadog-windows-amd64.exe#/terraformer-datadog.exe",
+            "hash": "bf7f27552da671fcf4189af53016275ee86342c4044f073c51105c6015fa6fed"
+        }
+    },
+    "bin": "terraformer-datadog.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-datadog-windows-amd64.exe#/terraformer-datadog.exe"
+            }
+        }
+    }
+}
