@@ -1,12 +1,12 @@
 {
-    "version": "0.8.18",
+    "version": "0.8.19",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-equinixmetal-windows-amd64.exe#/terraformer-equinixmetal.exe",
-            "hash": "ca2507ea7af29701947e234855e764ab4cce2a0e230dd93e3ae6196cebf40a67"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.19/terraformer-equinixmetal-windows-amd64.exe#/terraformer-equinixmetal.exe",
+            "hash": "79d958a850bf687ec2a91fef3dbb28c5d3a73ccc25fb77aa2ea5ddab9821e9bd"
         }
     },
     "bin": "terraformer-equinixmetal.exe",
