@@ -1,12 +1,12 @@
 {
-    "version": "0.8.18",
+    "version": "0.8.19",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-tencentcloud-windows-amd64.exe#/terraformer-tencentcloud.exe",
-            "hash": "eaa43a716745331d6daa0c40fec64566f2cecd8317249055d6225c79ecb5bd37"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.19/terraformer-tencentcloud-windows-amd64.exe#/terraformer-tencentcloud.exe",
+            "hash": "f1be84370e7b3542b8fd1b63a87e93736846c505ccdb32ac00461580e6568e02"
         }
     },
     "bin": "terraformer-tencentcloud.exe",
