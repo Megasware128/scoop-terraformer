@@ -1,12 +1,12 @@
 {
-    "version": "0.8.19",
+    "version": "0.8.20",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.19/terraformer-okta-windows-amd64.exe#/terraformer-okta.exe",
-            "hash": "694e57f0cd33d728d817f4f33b4ac17f6d256445a3b58e95da20a84b4a2a1f25"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-okta-windows-amd64.exe#/terraformer-okta.exe",
+            "hash": "c7c6ee7b3564624eaa4588298aa5b7afde456e9e01681bc9a59bb7b4c9849cca"
         }
     },
     "bin": "terraformer-okta.exe",
