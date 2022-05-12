@@ -1,12 +1,12 @@
 {
-    "version": "0.8.19",
+    "version": "0.8.20",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.19/terraformer-alicloud-windows-amd64.exe#/terraformer-alicloud.exe",
-            "hash": "56c74633bc4c322dff984d1d5ea2200f0cfc9db4560a003adb04484ec0737265"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-alicloud-windows-amd64.exe#/terraformer-alicloud.exe",
+            "hash": "6ac806ed08e2d5cd666eedade5277d3358abb76e72f97a95d85ddb03cc179a78"
         }
     },
     "bin": "terraformer-alicloud.exe",
