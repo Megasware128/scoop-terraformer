@@ -1,12 +1,12 @@
 {
-    "version": "0.8.19",
+    "version": "0.8.20",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.19/terraformer-panos-windows-amd64.exe#/terraformer-panos.exe",
-            "hash": "c10442cefd7b2e0fd0b7e0ca05243c89040a5d28115fbabd5bac7b4b302e2dad"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-panos-windows-amd64.exe#/terraformer-panos.exe",
+            "hash": "3ba9e26db562f6787d65a6c28eaad25a73737b9a88225e358c167bbae40fd5d3"
         }
     },
     "bin": "terraformer-panos.exe",
