@@ -1,21 +1,21 @@
 {
-  "version": "0.8.20",
-  "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
-  "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
-  "license": "Apache-2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-mackerel-windows-amd64.exe#/terraformer-mackerel.exe",
-      "hash": "cae87770be19f8cbf944b54a892b1c95244e9d8a2ee3967c6b501f8c478ca47d"
-    }
-  },
-  "bin": "terraformer-mackerel.exe",
-  "checkver": "github",
-  "autoupdate": {
+    "version": "0.8.21",
+    "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-mackerel-windows-amd64.exe#/terraformer-mackerel.exe"
-      }
+        "64bit": {
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-mackerel-windows-amd64.exe#/terraformer-mackerel.exe",
+            "hash": "1e5e0473cf7d00e900a7c277094f409fcb94c690b5da2c654171906a45500e45"
+        }
+    },
+    "bin": "terraformer-mackerel.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-mackerel-windows-amd64.exe#/terraformer-mackerel.exe"
+            }
+        }
     }
-  }
 }
