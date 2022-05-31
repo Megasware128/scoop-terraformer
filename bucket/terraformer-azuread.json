@@ -1,21 +1,21 @@
 {
-  "version": "0.8.20",
-  "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
-  "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
-  "license": "Apache-2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-azuread-windows-amd64.exe#/terraformer-azuread.exe",
-      "hash": "ff3644622da2a746958d117109ae97590ceaafadb1688000e885c2cb9eaac1f6"
-    }
-  },
-  "bin": "terraformer-azuread.exe",
-  "checkver": "github",
-  "autoupdate": {
+    "version": "0.8.21",
+    "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-azuread-windows-amd64.exe#/terraformer-azuread.exe"
-      }
+        "64bit": {
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-azuread-windows-amd64.exe#/terraformer-azuread.exe",
+            "hash": "440999d8680c3af7a12cf784adb36e98b0905ada3f6ee11c847f1169db6b3d9d"
+        }
+    },
+    "bin": "terraformer-azuread.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-azuread-windows-amd64.exe#/terraformer-azuread.exe"
+            }
+        }
     }
-  }
 }
