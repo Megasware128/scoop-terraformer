@@ -1,12 +1,12 @@
 {
-    "version": "0.8.20",
+    "version": "0.8.21",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-pagerduty-windows-amd64.exe#/terraformer-pagerduty.exe",
-            "hash": "e6e8d68a52f956dc9179cc1f09bfd21e0c0d6e6a58f6c9fa21ca48d8bf71079f"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-pagerduty-windows-amd64.exe#/terraformer-pagerduty.exe",
+            "hash": "f0968e11a160b93bf16ddff8864f35e1f266820efc684a008e5052956efdf96d"
         }
     },
     "bin": "terraformer-pagerduty.exe",
