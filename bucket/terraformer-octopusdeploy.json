@@ -1,12 +1,12 @@
 {
-    "version": "0.8.20",
+    "version": "0.8.21",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-octopusdeploy-windows-amd64.exe#/terraformer-octopusdeploy.exe",
-            "hash": "503656a43d3ee0f380b62d7bf6573bae0f6b22f45be1d634746a0e6f716c2c8a"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-octopusdeploy-windows-amd64.exe#/terraformer-octopusdeploy.exe",
+            "hash": "1e855f52118c1c8816284c71a2965f31ed1256a6b4e796b71b7091ceb2a260f9"
         }
     },
     "bin": "terraformer-octopusdeploy.exe",
