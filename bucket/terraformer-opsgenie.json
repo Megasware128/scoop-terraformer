@@ -1,21 +1,21 @@
 {
-  "version": "0.8.20",
-  "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
-  "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
-  "license": "Apache-2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-opsgenie-windows-amd64.exe#/terraformer-opsgenie.exe",
-      "hash": "0e3503ad69a2d40868b918c39a2ab42e469396119c18f79d9db189fb3846f1b0"
-    }
-  },
-  "bin": "terraformer-opsgenie.exe",
-  "checkver": "github",
-  "autoupdate": {
+    "version": "0.8.21",
+    "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-opsgenie-windows-amd64.exe#/terraformer-opsgenie.exe"
-      }
+        "64bit": {
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-opsgenie-windows-amd64.exe#/terraformer-opsgenie.exe",
+            "hash": "11208f3428e2636abea6e007bfcd488e95bfdf217cf19dad6d104710b8e99460"
+        }
+    },
+    "bin": "terraformer-opsgenie.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-opsgenie-windows-amd64.exe#/terraformer-opsgenie.exe"
+            }
+        }
     }
-  }
 }
