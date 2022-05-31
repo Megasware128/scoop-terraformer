@@ -1,12 +1,12 @@
 {
-    "version": "0.8.20",
+    "version": "0.8.21",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.20/terraformer-mikrotik-windows-amd64.exe#/terraformer-mikrotik.exe",
-            "hash": "da971e37ca70cd28b07e938389037b951e0b4d2f8ded4b96c9feeed90c2936e3"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-mikrotik-windows-amd64.exe#/terraformer-mikrotik.exe",
+            "hash": "e0dad45bfe057fbe9adb12d4971e76294c6eab33dc37e3b6f8119b0b3e77a468"
         }
     },
     "bin": "terraformer-mikrotik.exe",
