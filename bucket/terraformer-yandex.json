@@ -1,12 +1,12 @@
 {
-    "version": "0.8.21",
+    "version": "0.8.22",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-yandex-windows-amd64.exe#/terraformer-yandex.exe",
-            "hash": "2eef6a1a8e0189162cf4edc7c36931a4834e6b2e990374eb2127dac90faaed2c"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.22/terraformer-yandex-windows-amd64.exe#/terraformer-yandex.exe",
+            "hash": "7b1649ccb134fbf3f83c1e7e1fa91b2618c61f4a21f7f8fc0516bb60774b1476"
         }
     },
     "bin": "terraformer-yandex.exe",
