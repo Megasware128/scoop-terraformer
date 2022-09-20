@@ -1,12 +1,12 @@
 {
-    "version": "0.8.21",
+    "version": "0.8.22",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-xenorchestra-windows-amd64.exe#/terraformer-xenorchestra.exe",
-            "hash": "ae808a8980f4ad0da1bb1ab45db8a3e597b192572d3e488f1e15b910f12c7661"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.22/terraformer-xenorchestra-windows-amd64.exe#/terraformer-xenorchestra.exe",
+            "hash": "edf678c20c486d1c8d8a345db1bd0cc80060e22396efd6cd575bb5799bb0f969"
         }
     },
     "bin": "terraformer-xenorchestra.exe",
