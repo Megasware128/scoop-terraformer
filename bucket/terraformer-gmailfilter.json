@@ -1,12 +1,12 @@
 {
-    "version": "0.8.21",
+    "version": "0.8.22",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-gmailfilter-windows-amd64.exe#/terraformer-gmailfilter.exe",
-            "hash": "8833549e626db05fcb0526767a9eceb92915c14ae0cd752a4943fb17bf89f358"
+            "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.22/terraformer-gmailfilter-windows-amd64.exe#/terraformer-gmailfilter.exe",
+            "hash": "897b6d6609d988e79a33200f176e91669df9258a75978282a4bb87f042d75aac"
         }
     },
     "bin": "terraformer-gmailfilter.exe",
